@@ -1,0 +1,15 @@
+{
+  "name": "k9",
+  "version": "0.0.1",
+  "description": "Simple utility for rate limiting your own code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utility",
+    "rate"
+  ],
+  "author": "Sam Couch <sam@couch.rocks>",
+  "license": "ISC"
+}
