@@ -4,7 +4,7 @@
     "description": "Simple utility for rate limiting your own code.",
     "main": "index.js",
     "scripts": {
-        "test": "make test"
+        "test": "./node_modules/.bin/jest"
     },
     "repository": {
         "type": "git",
