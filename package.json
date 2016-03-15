@@ -4,7 +4,8 @@
     "description": "Simple utility for rate limiting your own code.",
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/jest"
+        "test": "./node_modules/.bin/jest",
+        "prepublish": "./node_modules/.bin/babel src --ignore __tests__,__mocks__ --out-dir dist"
     },
     "repository": {
         "type": "git",
